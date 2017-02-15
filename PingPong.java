@@ -1,3 +1,5 @@
+//Created by Alan Kanukov 15/02/2017.
+
 package pong;
 
 import javafx.application.Application;
