@@ -99,7 +99,11 @@ public class PingPongController {
     }
 
     private void process_key_Down(){
+<<<<<<< HEAD
         System.out.println("Processing the Down key!!!");
+=======
+        System.out.println("Processing the Down key");
+>>>>>>> alan
 
         if (currentKidPaddleY.get() < allowedPaddleBottomY){
             currentKidPaddleY.set(currentKidPaddleY.get() + PADDLE_MOVEMENT_INCREMENT);
